@@ -1,0 +1,52 @@
+# main links 导航
+main:
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Redis"
+    url: /redis/redis-bisic-1/
+  # - title: "分类"
+  #   url: /categories/
+  # - title: "标签"
+    url: /tags/
+  - title: "Golang"
+    url: /golang/
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Overriding Theme Defaults"
+        url: /docs/overriding-theme-defaults/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
+# redis
+redis:
+  - title: redis
+    children:
+      - title: "Redis基础使用篇一"
+        url: /redis/redis-bisic-1/
+      - title: "Redis基础使用篇二"
+        url: /redis/redis-bisic-2/
+      - title: "Redis原理篇"
+        url: /redis/redis-principle/
+      - title: "Redis数据结构篇"
+        url: /redis/redis-data-structure/
