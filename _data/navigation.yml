@@ -7,7 +7,7 @@ main:
   # - title: "标签"
   #  url: /tags/
   - title: "Golang"
-    url: /golang/
+    url: /golang/part1/go-note-1
   - title: "算法数据结构"
     url: /algo/common/
   - title: "分布式协议"
@@ -43,6 +43,36 @@ docs:
         url: /docs/authors/
       - title: "Layouts"
         url: /docs/layouts/
+
+# golang
+golang:
+  - title: 第一部分
+    children:
+      - title: "Golang学习笔记一"
+        url: /golang/part1/go-note-1
+      - title: "Golang学习笔记二"
+        url: /golang/part1/go-note-2
+      - title: "Comparable"
+        url: /golang/part1/comparable
+      - title: "Protocol Buffer"
+        url: /golang/part1/protocol-buffer
+      - title: "init函数"
+        url: /golang/part1/init
+  - title: 第二部分
+    children:
+      - title: "interface"
+        url: /golang/part2/interface
+      - title: "map 实现"
+        url: /golang/part2/map
+      - title: "数组&切片"
+        url: /golang/part2/slice
+      - title: "channel 基础应用"
+        url: /golang/part2/channel-usage
+      - title: "channel 实现"
+        url: /golang/part2/channel-sc
+      - title: "反射"
+        url: /golang/part2/reflect
+
 
 # redis
 redis:
