@@ -72,6 +72,24 @@ golang:
         url: /golang/part2/channel-sc
       - title: "反射"
         url: /golang/part2/reflect
+  - title: 第三部分
+    children:
+      - title: "go pprof"
+        url: /golang/pprof/go-pprof
+      - title: "内存逃逸分析"
+        url: /golang/pprof/memory-escape-analysis
+      - title: "一些Go性能优化手段"
+        url: /golang/pprof/pprof-improve
+      - title: "逃逸测试对比"
+        url: /golang/pprof/mem-escape-bench
+      - title: "atomic vs lock"
+        url: /golang/pprof/atomic-lock-bench
+      - title: "cpu cacheline"
+        url: /golang/pprof/cpu-cacheline
+      - title: "GODEBUG 查看GC信息"
+        url: /golang/pprof/gctrace
+      - title: "go tool trace"
+        url: /golang/pprof/go-tool-trace
 
 
 # redis
