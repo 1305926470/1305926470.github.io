@@ -2,13 +2,12 @@
 layout: single
 title:  "Redis基础使用篇一"
 date:   2019-03-10 22:50:46 +0800
+categories: redis
 permalink: /redis/redis-bisic-1/
 toc: true
 ---
 
 
-
-##  Redis基础使用篇一
 
 
 ### Redis  5 种基础数据结构

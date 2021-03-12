@@ -280,6 +280,9 @@ collections:
   algo:
     output: true
     permalink: /:collection/:path/
+  distributed-algo:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -336,3 +339,15 @@ defaults:
       comments: false
       sidebar:
         nav: "algo"
+  # _distributed-algo
+  - scope:
+      path: ""
+      type: distributed-algo
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "distributed-algo"

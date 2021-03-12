@@ -11,7 +11,7 @@ main:
   - title: "算法数据结构"
     url: /algo/common/
   - title: "分布式协议"
-    url: /redis/redis-bisic-1/
+    url: /distributed-algo/overview/
   - title: "微服务"
     url: /redis/redis-bisic-1/
   - title: "归档"
@@ -83,3 +83,32 @@ algo:
         url: /algo/apply/
       - title: "练习"
         url: /algo/practice/
+
+# algorithm
+distributed-algo:
+  - title: 分布式协议
+    children:
+      - title: "概述"
+        url: /distributed-algo/overview/
+      - title: "CAP 理论"
+        url: /distributed-algo/cap/
+      - title: "BASE 理论"
+        url: /distributed-algo/base/
+      - title: "拜占庭将军问题"
+        url: /distributed-algo/byzantine/
+      - title: "分布式事务"
+        url: /distributed-algo/transcation/
+      - title: "幂等设计"
+        url: /distributed-algo/idepotence/
+      - title: "Paxos 算法"
+        url: /distributed-algo/paxos/
+      - title: "Raft 算法"
+        url: /distributed-algo/raft/
+      - title: "一致性哈希"
+        url: /distributed-algo/consistent-hash/
+      - title: "Gossip 八卦协议"
+        url: /distributed-algo/gossip/
+      - title: "Quorum NWR算法"
+        url: /distributed-algo/quorum-nwr/
+      - title: "ZAB 协议"
+        url: /distributed-algo/zab/

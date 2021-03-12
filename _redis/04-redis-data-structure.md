@@ -2,13 +2,12 @@
 layout: single
 title:  "Redis数据结构篇"
 date:   2019-03-10 22:50:46 +0800
+categories: redis
 permalink: /redis/redis-data-structure/
 toc: true
 ---
 
 
-
-## Redis数据结构篇
 
 ### Redis对象头结构体
 一个RedisObject 对象头需要占据 16 字节的存储空间。
