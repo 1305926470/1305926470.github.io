@@ -4,6 +4,7 @@ title:  "Comparable"
 date:   2020-04-20 10:50:46 +0800
 permalink: /golang/part1/comparable
 toc: true
+toc_sticky: true
 ---
 
 

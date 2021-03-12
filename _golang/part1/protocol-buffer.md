@@ -4,6 +4,7 @@ title:  "Protocol Buffer"
 date:   2019-02-20 10:50:46 +0800
 permalink: /golang/part1/protocol-buffer
 toc: true
+toc_sticky: true
 ---
 
 

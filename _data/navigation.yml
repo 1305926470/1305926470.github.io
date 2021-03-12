@@ -46,7 +46,7 @@ docs:
 
 # golang
 golang:
-  - title: 第一部分
+  - title: 第一部分—基础应用
     children:
       - title: "Golang学习笔记一"
         url: /golang/part1/go-note-1
@@ -58,7 +58,7 @@ golang:
         url: /golang/part1/protocol-buffer
       - title: "init函数"
         url: /golang/part1/init
-  - title: 第二部分
+  - title: 第二部分—实现
     children:
       - title: "interface"
         url: /golang/part2/interface
@@ -72,7 +72,7 @@ golang:
         url: /golang/part2/channel-sc
       - title: "反射"
         url: /golang/part2/reflect
-  - title: 第三部分
+  - title: 第三部分—性能
     children:
       - title: "go pprof"
         url: /golang/pprof/go-pprof
@@ -90,8 +90,23 @@ golang:
         url: /golang/pprof/gctrace
       - title: "go tool trace"
         url: /golang/pprof/go-tool-trace
-
-
+  - title: 第四部分—runtime
+    children:
+      - title: "GPM"
+        url: /golang/runtime/schedule/schedule
+      - title: "G 代码"
+        url: /golang/runtime/schedule/g-code
+      - title: "P 代码"
+        url: /golang/runtime/schedule/p-code
+      - title: "M 代码"
+        url: /golang/runtime/schedule/m-code
+      - title: "runtime·main"
+        url: /golang/runtime/schedule/go-setup
+      - title: "查看调度器运行情况"
+        url: /golang/runtime/schedule/schedtrace
+        
+    
+          
 # redis
 redis:
   - title: redis

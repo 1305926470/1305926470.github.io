@@ -4,6 +4,7 @@ title:  "init函数"
 date:   2020-04-20 10:50:46 +0800
 permalink: /golang/part1/init
 toc: true
+toc_sticky: true
 ---
 
 
