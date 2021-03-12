@@ -1,7 +1,5 @@
 # main links 导航
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Redis"
     url: /redis/redis-bisic-1/
   # - title: "分类"
@@ -10,6 +8,14 @@ main:
   #  url: /tags/
   - title: "Golang"
     url: /golang/
+  - title: "算法数据结构"
+    url: /algo/common/
+  - title: "分布式协议"
+    url: /redis/redis-bisic-1/
+  - title: "微服务"
+    url: /redis/redis-bisic-1/
+  - title: "归档"
+    url: /redis/redis-bisic-1/
 
 # documentation links
 docs:
@@ -50,3 +56,30 @@ redis:
         url: /redis/redis-principle/
       - title: "Redis数据结构篇"
         url: /redis/redis-data-structure/
+
+# algorithm
+algo:
+  - title: 算法数据结构
+    children:
+      - title: "概述"
+        url: /algo/common/
+      - title: "链表"
+        url: /algo/linkedlist/
+      - title: "排序"
+        url: /algo/sort/
+      - title: "查找"
+        url: /algo/search/
+      - title: "位图"
+        url: /algo/bitmap/
+      - title: "B+树"
+        url: /algo/btree/
+      - title: "字符串"
+        url: /algo/string/
+      - title: "图"
+        url: /algo/graph/
+      - title: "算法思想"
+        url: /algo/methodology/
+      - title: "应用"
+        url: /algo/apply/
+      - title: "练习"
+        url: /algo/practice/

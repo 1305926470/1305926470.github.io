@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "楚"
+title                    : "Arctic"
 title_separator          : "-"
-subtitle                 : "二级标题" # site tagline that appears below site title in masthead
-name                     : "楚"
-description              : "描述信息"
+subtitle                 : "It's just a note" # site tagline that appears below site title in masthead
+name                     : "Arctic"
+description              : "It's just a note"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # false # true, false (default)
+breadcrumbs              : false # false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -93,19 +93,19 @@ analytics:
 
 
 # Site Author
-# author:
-#   name             : "Arctic"
-#   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-#   bio              : "记录."
-#   location         : "China"
-#   email            :
-#   links:
-#     - label: "Email"
-#       icon: "fas fa-fw fa-envelope-square"
-#       url: "hxx001er@163.com"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/1305926470"
+author:
+  name             : "Arctic"
+  avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Chill out"
+  location         : "shanghai"
+  email            :
+  links:
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "hxx001er@163.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/1305926470"
 
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -277,6 +277,9 @@ collections:
   redis:
     output: true
     permalink: /:collection/:path/
+  algo:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -321,3 +324,15 @@ defaults:
       type: golang
     values:
       layout: single
+  # _algo
+  - scope:
+      path: ""
+      type: algo
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "algo"
