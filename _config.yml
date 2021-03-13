@@ -283,6 +283,13 @@ collections:
   distributed-algo:
     output: true
     permalink: /:collection/:path/
+  microservice:
+    output: true
+    permalink: /:collection/:path/
+  network:
+    output: true
+    permalink: /:collection/:path/
+  
 
 # Defaults
 defaults:
@@ -359,3 +366,27 @@ defaults:
       comments: false
       sidebar:
         nav: "distributed-algo"
+  # _microservice
+  - scope:
+      path: ""
+      type: microservice
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "microservice"
+  # _network
+  - scope:
+      path: ""
+      type: network
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "network"

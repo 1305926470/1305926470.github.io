@@ -1,7 +1,5 @@
 # main links 导航
 main:
-  - title: "Redis"
-    url: /redis/redis-bisic-1/
   # - title: "分类"
   #   url: /categories/
   # - title: "标签"
@@ -12,7 +10,11 @@ main:
     url: /algo/common/
   - title: "分布式协议"
     url: /distributed-algo/overview/
-  - title: "微服务"
+  - title: "架构"
+    url: /microservice/availability/isolation
+  - title: "网络"
+    url: /network/tcp/tcp
+  - title: "Redis"
     url: /redis/redis-bisic-1/
   - title: "归档"
     url: /redis/redis-bisic-1/
@@ -119,21 +121,6 @@ golang:
       - title: "查看调度器运行情况"
         url: /golang/runtime/schedule/schedtrace
         
-    
-          
-# redis
-redis:
-  - title: redis
-    children:
-      - title: "Redis基础使用篇一"
-        url: /redis/redis-bisic-1/
-      - title: "Redis基础使用篇二"
-        url: /redis/redis-bisic-2/
-      - title: "Redis原理篇"
-        url: /redis/redis-principle/
-      - title: "Redis数据结构篇"
-        url: /redis/redis-data-structure/
-
 # algorithm
 algo:
   - title: 算法数据结构
@@ -189,3 +176,82 @@ distributed-algo:
         url: /distributed-algo/quorum-nwr/
       - title: "ZAB 协议"
         url: /distributed-algo/zab/
+
+# microservice
+microservice:
+  - title: 可用性设计
+    children:
+      - title: "隔离"
+        url: /microservice/availability/isolation
+      - title: "超时控制"
+        url: /microservice/availability/timeout-control
+      - title: "过载保护"
+        url: /microservice/availability/overload-protection
+      - title: "限流"
+        url: /microservice/availability/rate-limit
+      - title: "重试"
+        url: /microservice/availability/retry
+      - title: "负载均衡"
+        url: /microservice/availability/loadbalance
+      - title: "熔断器"
+        url: /microservice/availability/ciruit-breakers
+      - title: "服务等级指标"
+        url: /microservice/availability/sli-slo-sla
+  - title: 缓存设计
+    children:
+      - title: "缓存"
+        url: /microservice/cache/cache
+      - title: "Redis-Cluster"
+        url: /microservice/cache/redis-cluster
+      - title: "Memcached"
+        url: /microservice/cache/memcache
+  - title: 其他
+    children:
+      - title: "服务发现"
+        url: /microservice/service-discovery/register
+      - title: "Consul"
+        url: /microservice/service-discovery/consul1
+      - title: "分布式锁"
+        url: /microservice/distributed-lock
+      - title: "Zookeeper"
+        url: /microservice/zookeeper
+      - title: "消息队列"
+        url: /microservice/mq/mq
+      - title: "kafka问题及思考"
+        url: /microservice/mq/kafka/questions-thinking
+
+# network
+network:
+  - title: 网络协议
+    children:
+      - title: "TCP 基础篇"
+        url: /network/tcp/tcp
+      - title: "TCP 传输控制"
+        url: /network/tcp/tcp-transport-control
+      - title: "数据校验"
+        url: /network/tcp/data-check
+      - title: "一些Linux系统TCP参数"
+        url: /network/tcp/linux-tcp-sysctl
+      - title: "HTTP2协议介绍"
+        url: /network/http2/http2-introduce
+      - title: "HTTP2-rfc7540 中文版"
+        url: /network/http2/http2-rfc7540
+      - title: "基于QUIC协议的HTTP3"
+        url: /network/http3/http3
+      - title: "UDP"
+        url: /network/udp/udp
+      - title: "WebSocket"
+        url: /network/websocket/websocket
+
+# redis
+redis:
+  - title: redis
+    children:
+      - title: "Redis基础使用篇一"
+        url: /redis/redis-bisic-1/
+      - title: "Redis基础使用篇二"
+        url: /redis/redis-bisic-2/
+      - title: "Redis原理篇"
+        url: /redis/redis-principle/
+      - title: "Redis数据结构篇"
+        url: /redis/redis-data-structure/
