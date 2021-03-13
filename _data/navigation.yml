@@ -92,7 +92,21 @@ golang:
         url: /golang/pprof/go-tool-trace
   - title: 第四部分—runtime
     children:
-      - title: "GPM"
+      - title: "内存分配"
+        url: /golang/runtime/memory/malloc
+      - title: "内存分配术语"
+        url: /golang/runtime/memory/terms
+      - title: "内存分配函数"
+        url: /golang/runtime/memory/malloc-func
+      - title: "垃圾回收"
+        url: /golang/runtime/memory/gc
+      - title: "栈内存管理"
+        url: /golang/runtime/memory/stack
+      - title: "栈内存管理代码"
+        url: /golang/runtime/memory/stack-code
+      - title: "监视器的主要作用"
+        url: /golang/runtime/sysmon/sysmon
+      - title: "调度器"
         url: /golang/runtime/schedule/schedule
       - title: "G 代码"
         url: /golang/runtime/schedule/g-code

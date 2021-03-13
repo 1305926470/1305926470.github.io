@@ -1,0 +1,48 @@
+---
+layout: single
+title:  "简介"
+date:   2021-03-10 22:50:46 +0800
+categories: jekyll update
+---
+
+这里主要是自己平时学习的一些笔记。
+
+主要内容涉及
+
+- Golang
+
+  - part1 基础应用
+
+  - part2
+
+  - pprof 性能相关
+
+  - runtime
+
+    - malloc
+    - gc
+    - schedule
+    - stack
+    - sysmon
+
+- 微服务
+
+- 网络
+
+- 基础的算法与数据结构
+
+- 操作系统
+
+- 分布式协议与算法
+
+- 消息中间间
+
+- mysql
+
+- redis
+
+- nginx
+
+- 云原生
+
+  

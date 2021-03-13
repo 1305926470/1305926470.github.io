@@ -1,8 +1,15 @@
-# 监视器
+---
+layout: single
+title:  "监视器的主要作用"
+date:   2020-12-21 11:22:26 +0800
+permalink: /golang/runtime/sysmon/sysmon
+toc: true
+toc_sticky: true
+---
+
+
 
 [TOC]
-
-
 
 
 
