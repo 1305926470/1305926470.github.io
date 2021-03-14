@@ -315,7 +315,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      related: true
+      related: false
       sidebar:
         nav: "redis"
   # _golang
@@ -328,7 +328,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      related: true
+      related: false
       # classes: wide
       sidebar:
         nav: "golang"
@@ -343,7 +343,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      related: true
+      related: false
       sidebar:
         nav: "algo"
   # _distributed-algo
@@ -356,7 +356,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      related: true
+      related: false
       sidebar:
         nav: "distributed-algo"
   # _microservice
@@ -369,7 +369,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      related: true
+      related: false
       sidebar:
         nav: "microservice"
   # _network
@@ -382,6 +382,6 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      related: true
+      related: false
       sidebar:
         nav: "network"
