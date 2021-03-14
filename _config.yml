@@ -302,20 +302,9 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
-      related: true
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
       share: false
-      comments: false
-      sidebar:
-        nav: "docs"
+      related: false
+
   # _redis
   - scope:
       path: ""
@@ -326,6 +315,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      related: true
       sidebar:
         nav: "redis"
   # _golang
@@ -338,6 +328,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      related: true
       # classes: wide
       sidebar:
         nav: "golang"
@@ -352,6 +343,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      related: true
       sidebar:
         nav: "algo"
   # _distributed-algo
@@ -364,6 +356,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      related: true
       sidebar:
         nav: "distributed-algo"
   # _microservice
@@ -376,6 +369,7 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      related: true
       sidebar:
         nav: "microservice"
   # _network
@@ -388,5 +382,6 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      related: true
       sidebar:
         nav: "network"
