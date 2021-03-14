@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 locale                   : "zh-CN"
 title                    : "Arctic"
 title_separator          : "-"
-subtitle                 : "It's just a note" # site tagline that appears below site title in masthead
+subtitle                 : "A simple note" # site tagline that appears below site title in masthead
 name                     : "Arctic"
-description              : "It's just a note"
+description              : "A simple note"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Arctic"
-  avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Atos.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Chill out"
   location         : "shanghai"
   email            :

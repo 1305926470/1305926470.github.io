@@ -1,29 +1,112 @@
 ---
 layout: single
-title:  "Welcome to Jekyll!"
-date:   2021-03-10 22:50:46 +0800
-categories: jekyll update
+title:  "这个博客是怎么建成的"
+date:   2020-08-15 11:22:26 +0800
+toc: true
+toc_sticky: true
+
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
 
-`YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## 文档
 
-Jekyll also offers powerful support for code snippets:
+官方文档
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- https://jekyllrb.com/docs/installation/
+- https://jekyllcn.com/docs/
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+GitHub Pages
+
+- https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages
+
+
+
+主题
+
+- http://jekyllthemes.org/
+- https://github.com/topics/jekyll-theme
+- https://github.com/mmistakes/minimal-mistakes
+- https://hydejack.com/showcase/
+
+minimal-mistakes 样本示例
+
+- https://mmistakes.github.io/minimal-mistakes/docs/layouts/
+
+
+
+https://hexo.io/
+
+## 博客主题 minimal-mistakes
+
+https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+下载好 minimal-mistakes 之后，进入根目录
+
+- 按这个操作 https://github.com/mmistakes/minimal-mistakes
+
+
+
+```bash
+[root@localhost minimal-mistakes-4.22.0]# bundle
+Fetching gem metadata from https://rubygems.org/..........
+Resolving dependencies.....
+Fetching rake 13.0.3
+Installing rake 13.0.3
+...
+
+bundle exec jekyll serve --host 0.0.0.0 --port 80
+
+
+jekyll serve --host 0.0.0.0 --port 80 --incremental
+```
+
+--incremental
+
+### 配置相关选项
+
+https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+- _data文件夹里存的是可以配置的导航栏
+- _site目录中存放生成的 html 文件，会缓存的，值修改配置，貌似不会生效，直接删掉？
+
+- 右侧边栏 ```toc: true```
+
+## 备忘录
+
+安装 Ruby gem jekyll  等基础环境支持
+
+实现在本地预览：
+
+```bash
+//安装jekyll
+gem install  bundler
+
+
+bundle
+
+jekyll new testblog
+
+cd testblog
+
+jekyll serve --host 0.0.0.0 --port 80
+
+```
+
+在浏览器输入 http://127.0.0.1:80/  即可浏览刚刚创建的 blog
+
+
+
+## 问题记录及解决
+
+- 怎么添加目录
+- 怎么加载图片, 如何 md 与 博客不兼容，没法同时显示？结果一番爬坑，主要好了。
+- 怎么添加右侧文章 outline
+- 怎么添加左侧大目录
+- 怎么调整字体
+-  _post 中文件名：必须是 `YEAR-MONTH-DAY-title.md` 格式吗？ 这个有点麻烦
+- 调整边栏宽度
+- 绑定第三方域名
+
