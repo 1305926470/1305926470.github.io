@@ -151,13 +151,13 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 130 !default;    // 两边测边栏宽度，下面三个注释是默认值
-$right-sidebar-width: 230px !default;
-$right-sidebar-width-wide: 400px !default;
-
-// $right-sidebar-width-narrow: 200px !default;
-// $right-sidebar-width: 300px !default;
+// $right-sidebar-width-narrow: 130 !default;    // 两边测边栏宽度，下面三个注释是默认值
+// $right-sidebar-width: 230px !default;
 // $right-sidebar-width-wide: 400px !default;
+
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 300px !default;
+$right-sidebar-width-wide: 400px !default;
 
 /*
    Other
