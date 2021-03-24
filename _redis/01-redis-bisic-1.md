@@ -78,7 +78,45 @@ redis> getbit mykeys 4
 (integer) 1
 ```
 
-可以官网通过这里直接操作试下，https://redis.io/commands/getbit
+可以官网通过这里直接操作试下，https://try.redis.io/
+
+
+
+**bitCount**
+
+ 返回一个指定key中位的值为1的个数(是以byte为单位不是bit)
+
+```bash
+redis> setbit key1 1 1
+0
+redis> getbit key1 1
+1
+redis> setbit key1 100 1
+0
+redis> getbit key1 100
+1
+redis> bitcount key1
+2
+```
+
+
+
+**BITOP**  位操作
+
+`BITOP operation destkey key [key ...]`  对一个或多个保存二进制位的字符串 `key` 进行位运算(AND、OR、NOT、XOR)，并将结果保存到 `destkey` 上。
+
+```bash
+redis> SET key1 "foobar"
+"OK"
+redis> SET key2 "abcdef"
+"OK"
+redis> BITOP AND dest key1 key2
+(integer) 6
+redis> GET dest
+"`bc`ab"
+```
+
+
 
 ### 布隆过滤器 (Bloom Filter) 
 
@@ -97,6 +135,16 @@ Redis 4.0 之后，布隆过滤器作为一个插件加载到 Redis Server 中�
 127.0.0.1:6379> bf.exists ucenter user3
 (integer) 0
 ```
+
+添加多个元素： `bf.madd users user4 user5 user6 user`
+
+判断多个元素是否存在: `bf.mexists users user4 user5 user6 user7 user8`
+
+
+
+原生的 redis 并不支持 bloom filter，需要通过编译安装 rebloom.so 模块，配置redis.conf文件加载。
+
+
 
 ### HyperLogLog
 
@@ -198,3 +246,12 @@ scan算是keys的改进版，通过游标分步进行，不阻塞线程；提供
 
 ```
 
+
+
+
+
+## reference
+
+https://try.redis.io/
+
+https://redis.io/commands/getbit
