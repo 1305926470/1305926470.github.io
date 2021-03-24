@@ -147,6 +147,20 @@ algo:
         url: /algo/apply/
       - title: "练习"
         url: /algo/practice/
+  - title: 练习-Golang版
+    children:
+      - title: "查找"
+        url: /algo/case/search
+      - title: "排序"
+        url: /algo/case/sort
+      - title: "数组"
+        url: /algo/case/array
+      - title: "链表"
+        url: /algo/case/linkedlist
+      - title: "栈和队列"
+        url: /algo/case/stack-list
+      - title: "位运算"
+        url: /algo/case/bit
 
 # algorithm
 distributed-algo:
