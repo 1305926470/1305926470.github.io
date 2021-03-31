@@ -103,9 +103,9 @@ author:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: "hxx001er@163.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/1305926470"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/1305926470"
 
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
